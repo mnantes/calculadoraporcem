@@ -1,0 +1,43 @@
+body {
+    animation: backgroundChange 10s infinite alternate;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+@keyframes backgroundChange {
+    from {
+        background-color: #E0F7FA; 
+    }
+    to {
+        background-color: #01579B; 
+    }
+}
+
+.calculator-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.6); 
+    text-align: center;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #0277BD;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0288D1;
+}
